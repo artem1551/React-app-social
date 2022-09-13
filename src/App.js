@@ -1,8 +1,8 @@
-import Header from '../src/components/header';
-import Footer from '../src/components/Footer';
+import Header from './components/header/header';
+import Footer from './components/footer/Footer';
 import './App.css';
-import Sidebar from './components/sidebar';
-import Content from './components/Content';
+import Sidebar from './components/sidebar/sidebar';
+import Content from './components/content/Content';
 
 const App = () => {
   return (

@@ -1,0 +1,13 @@
+.footer {
+  grid-area: footer;
+  background-color: red;
+}
+
+.item {
+  color: blue;
+}
+
+.active {
+  color: black;
+
+}

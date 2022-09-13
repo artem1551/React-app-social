@@ -1,0 +1,8 @@
+.sidebar {
+  grid-area: nav;
+  background-color: green;
+}
+
+.item {
+  color: azure;
+}
