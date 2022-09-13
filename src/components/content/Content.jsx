@@ -1,10 +1,13 @@
 import './Content.css'
+import Events from './Events/Events';
+import Newses from './Newses/Newses';
 
 const Content = () => {
     return (
-      <div className="content">
-        content
-      </div>
+      <main className="content">
+        {/* <Newses /> */}
+        <Events />
+      </main>
     )
   };
   
