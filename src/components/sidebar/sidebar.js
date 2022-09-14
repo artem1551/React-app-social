@@ -1,12 +1,17 @@
-import './sidebar.css'
+
+import classes from './Sidebar.module.css'
+
 
 const Sidebar = () => {
     return (
-      <div className="sidebar">
+      <div className={classes.sidebar}>
         <ul>
-            <li className='item'>1</li>
-            <li className='item'>2</li>
-            <li className='item'>3</li>
+            <li>
+              <a className={classes.item} href='/news'>News</a>
+            </li>
+            <li>
+              <a className={classes.item} href='/events'>Events</a>
+            </li>
         </ul>
       </div>
     )

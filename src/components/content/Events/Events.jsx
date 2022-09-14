@@ -7,9 +7,9 @@ const Events = () => {
         add event
         <textarea></textarea>
         <button>ADD</button>
-        <Event title='1title' text='1text'/>
-        <Event title='2title' text='2text'/>
-        <Event title='3title' text='3text'/>
+        <Event link="/events/1" title='1title' text='1text'/>
+        <Event link="/events/2" title='2title' text='2text'/>
+        <Event link="/events/3" title='3title' text='3text'/>
 
 
       </div>
